@@ -24,7 +24,7 @@ def ambil_data_sheets():
     # =====================================================================
     # UBAH TEKS DI BAWAH INI DENGAN URL GOOGLE SHEETS ANDA YANG SEBENARNYA!
     # =====================================================================
-    url_sheet = "https://docs.google.com/spreadsheets/d/1swPGZxF6d_yUkIeQn_Z_ew1yEE-lvqlEYoUG6I5a0Bk/edit?usp=sharing" 
+    url_sheet = "https://docs.google.com/spreadsheets/d/1swPGZxF6d_yUkIeQn_Z_ew1yEE-lvqlEYoUG6I5a0Bk/edit?gid=0#gid=0" 
     
     try:
         df = conn.read(spreadsheet=url_sheet, usecols=list(range(10)))
